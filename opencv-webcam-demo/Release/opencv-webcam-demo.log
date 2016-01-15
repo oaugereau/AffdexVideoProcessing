@@ -1,0 +1,20 @@
+﻿La génération a démarré 15/01/2016 15:48:32.
+     1>Projet "C:\Program Files (x86)\Affectiva\win-sdk-samples\opencv-webcam-demo\opencv-webcam-demo.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Affectiva\Affdex SDK\include" /IC:\opencv\build\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "opencv-webcam-demo.cpp"
+         opencv-webcam-demo.cpp
+     1>opencv-webcam-demo.cpp(46): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+     1>opencv-webcam-demo.cpp(119): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+     1>opencv-webcam-demo.cpp(231): warning C4286: 'std::runtime_error' : intercepté par la classe de base ('std::exception') à la ligne 226
+     1>opencv-webcam-demo.cpp(251): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+     1>opencv-webcam-demo.cpp(305): warning C4286: 'std::runtime_error' : intercepté par la classe de base ('std::exception') à la ligne 300
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Program Files (x86)\Affectiva\win-sdk-samples\Release\opencv-webcam-demo.exe" /INCREMENTAL:NO /NOLOGO "C:\Program Files (x86)\Affectiva\Affdex SDK\lib\release\affdex-native.lib" C:\opencv\build\x86\vc12\lib\opencv_highgui2410.lib C:\opencv\build\x86\vc12\lib\opencv_core2410.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Program Files (x86)\Affectiva\win-sdk-samples\Release\opencv-webcam-demo.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Program Files (x86)\Affectiva\win-sdk-samples\Release\opencv-webcam-demo.lib" /MACHINE:X86 /SAFESEH "Release\opencv-webcam-demo.obj"
+         Génération de code en cours
+         Fin de la génération du code
+         opencv-webcam-demo.vcxproj -> C:\Program Files (x86)\Affectiva\win-sdk-samples\Release\opencv-webcam-demo.exe
+     1>Génération du projet "C:\Program Files (x86)\Affectiva\win-sdk-samples\opencv-webcam-demo\opencv-webcam-demo.vcxproj" terminée (Build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:02.35
